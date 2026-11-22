@@ -130,6 +130,10 @@ Open `notebooks/01_bronze_ingestion.ipynb`, `notebooks/02_silver_transformation.
 
 The `config/` directory separates source definitions, transformation rules, and data-quality checks from the processing code. This makes the sample easier to extend with additional sources or rules without rewriting the notebook workflow. New source schemas and dependencies still require appropriate configuration and testing.
 
+## What This Project Demonstrates
+
+This portfolio project demonstrates the ability to develop modular, configurable data pipelines using Python and PySpark; implement data-quality and referential-integrity controls; and transform validated operational data into analytics-ready datasets. The local implementation illustrates patterns that can be adapted to client environments, while cloud deployment remains outside the scope of this demo.
+
 ## Current scope and next steps
 
 **Implemented and validated:** Local CSV ingestion, metadata-driven processing, modular PySpark transformations, deduplication, quality checks, referential integrity, rejection reporting, Gold aggregations, and automated sample reconciliations.
@@ -137,3 +141,9 @@ The `config/` directory separates source definitions, transformation rules, and 
 **Potential future work:** Persistent Delta tables in Databricks, cloud orchestration and storage, automated test suites and CI, incremental ingestion, monitoring, and a reporting layer.
 
 See [`docs/architecture.md`](docs/architecture.md) for additional architecture details.
+
+---
+
+Developed as a portfolio demonstration for **Rolling Data — All You Need Is Data**.
+
+[Visit Rolling Data](https://cmessuti.github.io/rolling-data-web/)
