@@ -146,4 +146,4 @@ See [`docs/architecture.md`](docs/architecture.md) for additional architecture d
 
 Developed as a portfolio demonstration for **Rolling Data — All You Need Is Data**.
 
-[Visit Rolling Data](https://cmessuti.github.io/rolling-data-web/)
+[Visit Rolling Data](https://rolling-data.github.io/rolling-data-web/)
